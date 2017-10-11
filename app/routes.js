@@ -16,7 +16,7 @@ const browserHistory = ReactRouter.browserHistory;
 
 module.exports = (
     <Router history={browserHistory}>
-        <Route path='/' component={Main}>
+        <Route path='/home' component={Main}>
             <IndexRoute resume={config.path.resume} component={Home}/>
             <Route path='*' component={NotFound}/>
         </Route>
