@@ -28,12 +28,9 @@
   },
   "scripts": {
     "bundle": "webpack --production --progress",
-    "deploy": "webpack -p --progress --config webpack.deploy.js",
     "lint": "eslint .",
     "security-check": "nsp check --output summary",
-    "setup": ". ./setup.sh",
     "start": "webpack-dev-server --hot --inline",
-    "watch": "webpack --watch"
   },
   "dependencies": {},
   "devDependencies": {
