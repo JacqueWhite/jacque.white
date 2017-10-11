@@ -3,18 +3,18 @@
   "private": true,
   "description": "Jacqueline White personal site",
   "version": "1.1.0",
-  "homepage": "https://suddi.github.io",
+  "homepage": "https://jacquewhite.github.io/jacque.white",
   "author": {
     "name": "Jacqueline White",
     "email": "jacquecwhite@gmail.com",
-    "url": "https://jacqueline-white.herokuapp.com"
+    "url": "https://jacquewhite.github.io/jacque.white"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suddi/suddi.github.io"
+    "url": "https://jacquewhite.github.io/jacque.white"
   },
   "bugs": {
-    "url": "https://github.com/jacquewhite"
+    "url": "https://github.com/jacquewhite/jacque.white/issues"
   },
   "licenses": [
     {
@@ -28,6 +28,7 @@
   },
   "scripts": {
     "bundle": "webpack --production --progress",
+    "deploy": "webpack -p --progress --config webpack.deploy.js",
     "lint": "eslint .",
     "prepush": "npm test",
     "security-check": "nsp check --output summary",
