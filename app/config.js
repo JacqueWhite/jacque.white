@@ -2,7 +2,7 @@
 
 module.exports = {
     path: {
-        resume: '/public/resume.json'
+        resume: '/resume.json'
     },
 
     navigation: {
@@ -20,16 +20,16 @@ module.exports = {
     portfolio: {
         image: {
             'LocALL': {
-                thumb: 'public/images/portfolio/thumb/locall.png',
-                modal: 'public/images/portfolio/modal/locall.png'
+                thumb: '/images/portfolio/thumb/locall.png',
+                modal: '/images/portfolio/modal/locall.png'
             },
             'ItsaGO': {
-                thumb: 'public/images/portfolio/thumb/itsago.png',
-                modal: 'public/images/portfolio/modal/itsago.png'
+                thumb: '/images/portfolio/thumb/itsago.png',
+                modal: '/images/portfolio/modal/itsago.png'
             },
             'Accountabilibuddy': {
-                thumb: 'public/images/portfolio/thumb/accountabilibuddy.png',
-                modal: 'public/images/portfolio/modal/accountabilibuddy.png'
+                thumb: '/images/portfolio/thumb/accountabilibuddy.png',
+                modal: '/images/portfolio/modal/accountabilibuddy.png'
             }
         }
     }
