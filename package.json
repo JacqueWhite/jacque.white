@@ -30,7 +30,7 @@
     "bundle": "webpack --production --progress",
     "lint": "eslint .",
     "security-check": "nsp check --output summary",
-    "start": "webpack-dev-server --hot --inline",
+    "start": "webpack-dev-server --hot --inline"
   },
   "dependencies": {},
   "devDependencies": {
