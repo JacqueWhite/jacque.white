@@ -32,8 +32,7 @@
     "security-check": "nsp check --output summary",
     "start": "webpack-dev-server --hot --inline"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-react": "^6.0.0",
@@ -54,6 +53,7 @@
     "webpack": "^1.0.0",
     "webpack-dev-server": "^1.0.0"
   },
+  "devDependencies": {},
   "eslintConfig": {
     "extends": "suddi/frontend"
   }
