@@ -1,0 +1,365 @@
+{
+  "basics": {
+    "name": "Jacqueline White",
+    "label": "Full Stack Web Developer",
+    "picture": "https://avatars0.githubusercontent.com/u/28735603?v=4&s=460",
+    "email": "jacquecwhite@gmail.com",
+    "phone": "(512) 466-1770",
+    "website": "https://jacqueline-white.herokuapp.com",
+    "summary": "Full-Stack Developer in Austin, TX with a passion for helping people and bringing their ideas to life. Understands the needs of a variety of clients due to a wide-range of career experiences ranging from health & wellness to human resources.",
+    "location": {
+      "address": "",
+      "postalCode": "78751",
+      "city": "Austin, Texas",
+      "countryCode": "",
+      "region": "Central"
+    },
+    "profiles": [
+      {
+        "network": "Phone",
+        "username": "",
+        "url": "skype:+15124661770"
+      },
+      {
+        "network": "Email",
+        "username": "jacquecwhite@gmail.com",
+        "url": "mailto:jacquecwhite@gmail.com"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jacquelinewhite15",
+        "url": "https://www.linkedin.com/in/jacquelinewhite15/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jacquewhite",
+        "url": "https://github.com/jacquewhite"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "The Coding Bootcamp at UT Austin",
+      "position": "Full Stack Web Developer",
+      "website": "https://professionaled.utexas.edu/coding-boot-camp-certificate-program",
+      "startDate": "July 2017",
+      "endDate": "October 2017",
+      "summary": "A rigorous 12-week course presented by the University of Texas Center for Professional Education, that develops the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development",
+      "highlights": [
+        "Browser Based Technologies: HTML, CSS, JavaScript, jQuery, Responsive Design, AJAX, RESTful APIs.",
+        "Server Side Development: Node.js, Express.js, React.js, Handlebars.js",
+        "Database: MySQL, MongoDB, Servers, Heroku, Security and Session Storage, User Authentication."
+      ]
+    },
+    {
+      "company": "Tastemade, Inc.",
+      "position": "Human Resources Assistant",
+      "website": "https://www.tastemade.com/",
+      "startDate": "September 2016",
+      "endDate": "May 2017",
+      "summary": "Intgral part of a small HR team comprised of the Head of People Operations and Senior Recruiter",
+      "highlights": [
+        "Built out custom Performance Review forms for 100+ employees",
+        "Planed company events by working with budgets, vendors, and coordinating logistics",
+        "Supported recruiter with interview scheduling, posting jobs, and candidate communications"
+      ]
+    },
+    {
+      "company": "Proof Advertising, LLC",
+      "position": "Human Resources Coordinator",
+      "website": "http://www.proof-advertising.com/",
+      "startDate": "September 2015",
+      "endDate": "September 2016",
+      "summary": "Team player of a 2-person HR team for a company of 120+ employees",
+      "highlights": [
+        "Processed semi-monthly payroll along with employee 401(k) and HSA contributions",
+        "Organized and planned agency wellness initiatives alongside wellness committee",
+        "Recruited for account service, media, and creative departments"
+      ]
+    },
+    {
+      "company": "Medifit | EXOS",
+      "position": "Corporate Wellness Intern",
+      "website": "http://www.teamexos.com/industries/employer/",
+      "startDate": "September 2015",
+      "endDate": "September 2016",
+      "summary": "Team player of a 2-person HR team for a company of 120+ employees",
+      "highlights": [
+        "Processed semi-monthly payroll along with employee 401(k) and HSA contributions",
+        "Organized and planned agency wellness initiatives alongside wellness committee",
+        "Recruited for account service, media, and creative departments"
+      ]
+    },
+    {
+      "company": "QikMood, Inc.",
+      "position": "QikMood Ambassador",
+      "website": "http://www.qikmood.com",
+      "startDate": "April 2015",
+      "endDate": "August 2017",
+      "summary": "Social Media Ambassador for QikMood: A health & fitness library in the palm of your hand.",
+      "highlights": [
+        "Lead Research",
+        "Social Media Marketing",
+        "Collected article content for QikMood Daily"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "NOW Texas",
+      "position": "Events Chair",
+      "website": "",
+      "startDate": "2002-01-01",
+      "endDate": "2004-11-01",
+      "summary": "",
+      "highlights": [
+        "Took donated food to rural settlements.",
+        "Educated under-privileged children on the dangers of HIV/AIDS."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Coding Bootcamp at UT Austin",
+      "area": "Full Stack Web Development",
+      "studyType": "Professional Development Certificate",
+      "startDate": "August 2017",
+      "endDate": "October 2017",
+      "gpa": "",
+      "summary": "A rigorous 12-week course that develops the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development. Emphasizes a hands-on approach to learning that includes weekly individual challenges that mimic real-world situations as well as larger scale collaborative group projects.",
+      "courses": []
+    },
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Kinesology and Health Promotion",
+      "studyType": "Bachelors of Science",
+      "startDate": "August 2012",
+      "endDate": "May 2015",
+      "gpa": "3.5",
+      "summary": "B.S. in Kinesiology and Health Promotion with a specialization in Community Health and Wellness",
+      "courses": [
+        "Management of Physical Activity and Sport Programs",
+        "Epidemiology",
+        "Human Anatomy and Physiology"
+      ]
+    },
+    {
+      "institution": "Universidad Complutense de Madrid",
+      "area": "Spanish",
+      "studyType": "Study Abroad Program",
+      "startDate": "May 2012",
+      "endDate": "July 2012",
+      "gpa": "",
+      "summary": "",
+      "courses": []
+    },
+    {
+      "institution": "The University of Texas at San Antonio",
+      "area": "Biology",
+      "studyType": "Bachelors of Science",
+      "startDate": "August 2011",
+      "endDate": "May 2015",
+      "gpa": "3.9",
+      "summary": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "UTSA Dean's List",
+      "date": "2012-05-31",
+      "awarder": "The University of Texas at San Antonio",
+      "summary": "Undergraduate students who achieve scholastic distinction in a semester, as evidenced by a grade point average of 3.75 to 3.99 in at least 12 semester credit hours in a Fall, Spring, or Summer semester."
+    },
+    {
+      "title": "TVMA Scholarship",
+      "date": "2011-08-01",
+      "awarder": "Texas Vegetation Management Association",
+      "summary": "To recognize and support an outstanding student of a member of the Texas Vegetation Management Association studying  at a college or university, and to promote education and leadership within the organization."
+    }
+  ],
+  "publications": [
+    {
+      "name": "LocALL:Web:JavaScript, jQuery, Firebase, Bootstrap",
+      "publisher": "jacqueline",
+      "releaseDate": "2017-08-31",
+      "website": "https://jacquewhite.github.io/LocAll/",
+      "summary": "Campus Guiding System is a Google Maps-like application to provide directions within the HKUST campus. It calculates the shortest route between any two points in the university, using the Dijkstra's search algorithm. The system features a rich UI rendered in jQuery UI and jsDraw2D, providing map manipulation and location search functionalities. The backend is developed in PHP, utilizing MySQL as the database."
+    },
+    {
+      "name": "ItsaGO:Web:JavaScript, MySQL, Sequelize, Materialize",
+      "publisher": "jacqueline",
+      "releaseDate": "2017-09-31",
+      "website": "https://itsa-go.herokuapp.com/",
+      "summary": "Simple event and RSVP manager"
+    },
+    {
+      "name": "Accountabilibuddy:Web: JavaScript, MongoDB, mongoose, Bootstrap",
+      "publisher": "jacqueline",
+      "releaseDate": "2017-10-20",
+      "website": "https://onereq.herokuapp.com/",
+      "summary": "Recruiting platform for Software Developer recruiters."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "80",
+      "keywords": [
+        "programming",
+        "expressjs",
+        "vanilla javascript",
+        "jQuery",
+        "AJAX"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "70",
+      "keywords": [
+        "programming",
+        "expressjs",
+        "koajs"
+      ]
+    },
+    {
+      "name": "React.js",
+      "level": "70",
+      "keywords": [
+        "programming",
+        "expressjs",
+        "react"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "70",
+      "keywords": [
+        "database",
+        "nosql"
+      ]
+    },
+    {
+      "name": "mongoose",
+      "level": "70",
+      "keywords": [
+        "database",
+        "nosql",
+        "orm"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "75",
+      "keywords": [
+        "database",
+        "sql"
+      ]
+    },
+    {
+      "name": "Sequelize",
+      "level": "70",
+      "keywords": [
+        "database",
+        "sql",
+        "orm"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "level": "60",
+      "keywords": [
+        "google firebase",
+        "database"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "90",
+      "keywords": [
+        "front-end",
+        "html5"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "90",
+      "keywords": [
+        "css3",
+        "front-end"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "80",
+      "keywords": [
+        "css",
+        "css framework"
+      ]
+    },
+    {
+      "name": "Materialize",
+      "level": "70",
+      "keywords": [
+        "css",
+        "css framework"
+      ]
+    },
+    {
+      "name": "Materialize",
+      "level": "70",
+      "keywords": [
+        "css",
+        "css framework"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "100"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Human Resources",
+      "keywords": []
+    },
+    {
+      "name": "Corporate Wellness",
+      "keywords": []
+    },
+    {
+      "name": "Health",
+      "keywords": []
+    },
+    {
+      "name": "Fitness",
+      "keywords": []
+    },
+    {
+      "name": "Recruiting",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Trung Nguyen",
+      "reference": "Jacqueline and I worked together at FitChimp, and she was a great assistant through her leadership, reliability, professionalism and enthusiasm. She showed up early for all of our meetings. She always got her assignments done on time. In addition, she would offer to help others when her assignments were completed. I was very pleased with Jacqueline's attitude and her work ethics, and I would highly recommend her without any hesitations.",
+      "position": "CEO and Founder",
+      "company": "QikMood"
+    },
+    {
+      "name": "Isaac Lee",
+      "reference": "I got to mentor Jacque for LocALL app. I was thoroughly impressed by her work ethic, ability to research and learn new ideas on her own, and interpersonal skills that helped our project become a success.  I see great things in Jacque as a leader, and heartily recommend her as your next full stack developer!",
+      "position": "Full Stack Developer",
+      "company": "UT Coding Bootcamp"
+    },
+    {
+      "name": "Margarita Tagaban",
+      "reference": "Jacqueline was one of the software engineer's working on the back-end for our app LocAll. Jacqueline always kept the team going and always had great ideas. She is hardworking and always seeking to learn as much as possible. She pushed through every obstacle and never let anything get in her way. She was wonderful to work with and I would work with her again in a heartbeat.",
+      "position": "Full Stack Developer",
+      "company": "UT Coding Bootcamp"    
+    }
+  ]
+}
