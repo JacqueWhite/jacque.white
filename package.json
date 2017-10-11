@@ -30,11 +30,9 @@
     "bundle": "webpack --production --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
     "lint": "eslint .",
-    "prepush": "npm test",
     "security-check": "nsp check --output summary",
     "setup": ". ./setup.sh",
     "start": "webpack-dev-server --hot --inline",
-    "test": "npm run lint && npm run security-check",
     "watch": "webpack --watch"
   },
   "dependencies": {},
