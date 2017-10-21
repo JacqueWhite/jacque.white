@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 // Replace this with your own email address
 $siteOwnersEmail = 'jacquecwhite@gmail.com';
@@ -20,7 +20,7 @@ if($_POST) {
 		$error['email'] = "Please enter a valid email address.";
 	}
 	// Check Message
-	if (strlen($contact_message) < 15) {
+	if (strlen($contact_message) < 5) {
 		$error['message'] = "Please enter your message. It should have at least 15 characters.";
 	}
    // Subject
@@ -35,10 +35,10 @@ if($_POST) {
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
 
    // Set From: header
-   $from =  $name . " <" . $email . ">";
+   $from .=  $name . " <" . $email . ">";
 
    // Email Headers
-	$headers = "From: " . $from . "\r\n";
+	$headers .= "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
@@ -47,7 +47,7 @@ if($_POST) {
    if (!$error) {
 
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
-      $mail = mail($siteOwnersEmail, $subject, $message, $headers);
+      $mail .= mail($siteOwnersEmail, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
@@ -56,7 +56,7 @@ if($_POST) {
 
 	else {
 
-		$response = (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
+		$response .= (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
 		$response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
 		$response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
 		
