@@ -1,56 +1,790 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"><![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1"/>
-        <meta name="description" content="Full-Stack Developer in Austin, TX with a passion for helping people and bringing their ideas to life. Understands the needs of a variety of clients due to a wide-range of career experiences ranging from health & wellness to human resources."/>
-        <meta name="author" content="Jacqueline White"/>
-        <meta name="keywords" content="jacqueine, white, jacquewhite, jacqueline white, react, resume, cv, full stack, austin texas"/>
-        <title>Jacqueline White</title>
-        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="public/favicon/apple-touch-icon-57x57.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/favicon/apple-touch-icon-114x114.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/favicon/apple-touch-icon-72x72.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon/apple-touch-icon-144x144.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="public/favicon/apple-touch-icon-60x60.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="public/favicon/apple-touch-icon-120x120.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="public/favicon/apple-touch-icon-76x76.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="public/favicon/apple-touch-icon-152x152.png"/>
-        <link rel="icon" type="image/png" sizes="196x196" href="public/favicon/favicon-196x196.png"/>
-        <link rel="icon" type="image/png" sizes="96x96" href="public/favicon/favicon-96x96.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png"/>
-        <link rel="icon" type="image/png" sizes="128x128" href="public/favicon/favicon-128.png"/>
-        <meta name="application-name" content="Jacqueline White"/>
-        <meta name="msapplication-TileColor" content="#FFFFFF"/>
-        <meta name="msapplication-TileImage" content="public/favicon/mstile-144x144.png"/>
-        <meta name="msapplication-square70x70logo" content="public/favicon/mstile-70x70.png"/>
-        <meta name="msapplication-square150x150logo" content="public/favicon/mstile-150x150.png"/>
-        <meta name="msapplication-wide310x150logo" content="public/favicon/mstile-310x150.png"/>
-        <meta name="msapplication-square310x310logo" content="public/favicon/mstile-310x310.png"/>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-        <!-- build:css -->
-        <link rel="stylesheet" href="public/css/default.css"/>
-        <link rel="stylesheet" href="public/css/layout.css"/>
-        <link rel="stylesheet" href="public/css/media-queries.css"/>
-        <!-- <link rel="stylesheet" href="public/css/magnific-popup.css"/> -->
-        <!-- <link rel="stylesheet" href="public/css/main.css"/> -->
-        <!-- endbuild -->
-    </head>
-    <body>
-        <div id="app"></div>
-        <script src="public/bundle.js" type="text/javascript"></script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-107733786-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </body>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jacqueline White</title>
+  <meta name="description" content="Full-Stack Developer in Austin, TX with a passion for helping people and bringing their ideas to life. Understands the needs of a variety of clients due to a wide-range of career experiences ranging from health & wellness to human resources."/>
+  <meta name="author" content="Jacqueline White"/>
+  <meta name="keywords" content="jacqueline, white, jacquewhite, jacqueline white, react, resume, cv, full stack, austin texas, javascript"/>
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Work</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Jacqueline White</h1>
+            <h3>I'm a US based <span>full stack developer</span> creating awesome and
+            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+              <li><a href="skype:+15124661770"><i class="fa fa-phone"></i></a></li>
+              <li><a href="mailto:jacquecwhite@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/jacquelinewhite15/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/jacquewhite"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Full-Stack Developer in Austin, TX with a passion for helping people and bringing their ideas to life. Understands the needs of a variety of clients due to a wide-range of career experiences ranging from health &amp; wellness to human resources.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jacqueline White</span><br>
+						   <span>Austin, TX 78602
+                     </span><br>
+						   <span>(512) 466-1770</span><br>
+                     <span>jacquecwhite @ gmail</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://drive.google.com/drive/u/0/recent" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                 <h3>The Coding Bootcamp at UT Austin</h3>
+                 <p class="info">Full Stack Web Development <span>&bull;</span> <em class="date">Oct 2017</em></p>
+
+                 <p>
+                 A rigorous 12-week course that develops the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development. Emphasizes a hands-on approach to learning that includes weekly individual challenges that mimic real-world situations as well as larger scale collaborative group projects.
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>The University of Texas at Austin</h3>
+                  <p class="info">B.S. Kinesology and Health Promotion<span>&bull;</span> <em class="date">August 2015</em></p>
+
+                  <p>
+                  B.S. in Kinesiology and Health Promotion with a specialization in Community Health and Wellness
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Universidad Complutense de Madrid</h3>
+                  <p class="info">Study Abroad Program<span>&bull;</span> <em class="date">July 2012</em></p>
+
+                  <p>
+                  Immersive study abroad program in Madrid, Spain. Studied Spanish culture and language.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>The University of Texas at San Antonio</h3>
+                  <p class="info">Biology<span>&bull;</span> <em class="date">May 2012</em></p>
+
+                  <p>
+                  Undergraduate studies prior to transferring to UT Austin.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+        <div class="row work">
+            <div class="two columns header-col">
+                <h1><span>Work</span></h1></div>
+            <div class="ten columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="https://professionaled.utexas.edu/coding-boot-camp-certificate-program">The Coding Bootcamp at UT Austin</a></h3>
+                        <p class="info">
+                            <!-- react-text: 77 -->Full Stack Web Developer
+                            <!-- /react-text --><span> • </span><span class="info-summary">A rigorous 12-week course presented by the University of Texas Center for Professional Education, that develops the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development</span><span> • </span><em class="date"><!-- react-text: 82 -->Jan 2017<!-- /react-text --><!-- react-text: 83 --> - <!-- /react-text --><!-- react-text: 84 -->Jan 2017<!-- /react-text --></em></p>
+                        <div>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 88 -->Browser Based Technologies: HTML, CSS, JavaScript, jQuery, Responsive Design, AJAX, RESTful APIs.
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 91 -->Server Side Development: Node.js, Express.js, React.js, Handlebars.js
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 94 -->Database: MySQL, MongoDB, Servers, Heroku, Security and Session Storage, User Authentication.
+                                <!-- /react-text -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="https://www.tastemade.com/">Tastemade, Inc.</a></h3>
+                        <p class="info">
+                            <!-- react-text: 101 -->Human Resources Assistant
+                            <!-- /react-text --><span> • </span><span class="info-summary">Intgral part of a small HR team comprised of the Head of People Operations and Senior Recruiter</span><span> • </span><em class="date"><!-- react-text: 106 -->Jan 2016<!-- /react-text --><!-- react-text: 107 --> - <!-- /react-text --><!-- react-text: 108 -->Jan 2017<!-- /react-text --></em></p>
+                        <div>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 112 -->Built out custom Performance Review forms for 100+ employees
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 115 -->Planed company events by working with budgets, vendors, and coordinating logistics
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 118 -->Supported recruiter with interview scheduling, posting jobs, and candidate communications
+                                <!-- /react-text -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="http://www.proof-advertising.com/">Proof Advertising, LLC</a></h3>
+                        <p class="info">
+                            <!-- react-text: 125 -->Human Resources Coordinator
+                            <!-- /react-text --><span> • </span><span class="info-summary">Team player of a 2-person HR team for a company of 120+ employees</span><span> • </span><em class="date"><!-- react-text: 130 -->Jan 2015<!-- /react-text --><!-- react-text: 131 --> - <!-- /react-text --><!-- react-text: 132 -->Jan 2016<!-- /react-text --></em></p>
+                        <div>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 136 -->Processed semi-monthly payroll along with employee 401(k) and HSA contributions
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 139 -->Organized and planned agency wellness initiatives alongside wellness committee
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 142 -->Recruited for account service, media, and creative departments
+                                <!-- /react-text -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="http://www.teamexos.com/industries/employer/">Medifit | EXOS</a></h3>
+                        <p class="info">
+                            <!-- react-text: 149 -->Corporate Wellness Intern
+                            <!-- /react-text --><span> • </span><span class="info-summary">Team player of a 2-person HR team for a company of 120+ employees</span><span> • </span><em class="date"><!-- react-text: 154 -->Jan 2015<!-- /react-text --><!-- react-text: 155 --> - <!-- /react-text --><!-- react-text: 156 -->Jan 2016<!-- /react-text --></em></p>
+                        <div>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 160 -->Processed semi-monthly payroll along with employee 401(k) and HSA contributions
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 163 -->Organized and planned agency wellness initiatives alongside wellness committee
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 166 -->Recruited for account service, media, and creative departments
+                                <!-- /react-text -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="http://www.qikmood.com">QikMood, Inc.</a></h3>
+                        <p class="info">
+                            <!-- react-text: 173 -->QikMood Ambassador
+                            <!-- /react-text --><span> • </span><span class="info-summary">Social Media Ambassador for QikMood: A health &amp; fitness library in the palm of your hand.</span><span> • </span><em class="date"><!-- react-text: 178 -->Jan 2015<!-- /react-text --><!-- react-text: 179 --> - <!-- /react-text --><!-- react-text: 180 -->Jan 2017<!-- /react-text --></em></p>
+                        <div>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 184 -->Lead Research
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 187 -->Social Media Marketing
+                                <!-- /react-text -->
+                            </p>
+                            <p class="point"><span class="bullet-point">• </span>
+                                <!-- react-text: 190 -->Collected article content for QikMood Daily
+                                <!-- /react-text -->
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+        <div class="row skill">
+            <div class="two columns header-col">
+                <h1><span>Skills</span></h1></div>
+            <div class="ten columns main-col">
+                <div class="row inside">
+                    <h3>Programming Languages</h3>
+                    <p class="skill-summary">Worked primarily with JavaScript, in frameworks such as Node.js, Express.js, and React.js</p>
+                    <p class="skill-summary">Currently working on side projects to gain experience in Angular.js and React Native.</p>
+                    <div class="bars">
+                        <ul class="skills">
+                            <li><span class="bar-expand percentage80" style="background: rgb(49, 49, 49);"></span><em>JavaScript</em></li>
+                            <li><span class="bar-expand percentage70" style="background: rgb(49, 49, 49);"></span><em>Node.js</em></li>
+                            <li><span class="bar-expand percentage70" style="background: rgb(49, 49, 49);"></span><em>React.js</em></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row inside">
+                    <h3>Database Systems</h3>
+                    <p class="skill-summary">Experienced in both SQL and NoSQL, having worked on projects utilizing MongoDB, MySQL and Google Firebase.</p>
+                    <div class="bars">
+                        <ul class="skills">
+                            <li><span class="bar-expand percentage70" style="background: rgb(49, 49, 49);"></span><em>MongoDB</em></li>
+                            <li><span class="bar-expand percentage70" style="background: rgb(49, 49, 49);"></span><em>mongoose</em></li>
+                            <li><span class="bar-expand percentage75" style="background: rgb(49, 49, 49);"></span><em>MySQL</em></li>
+                            <li><span class="bar-expand percentage70" style="background: rgb(49, 49, 49);"></span><em>Sequelize</em></li>
+                            <li><span class="bar-expand percentage60" style="background: rgb(49, 49, 49);"></span><em>Firebase</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap"><img src="public/images/portfolio/thumb/itsago.png" alt="ItsaGO">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>ItsaGO</h5>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-down-open"></i></div>
+                        </div>
+                        <noscript></noscript>
+                    </div>
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap"><img src="public/images/portfolio/thumb/accountabilibuddy.png" alt="Accountabilibuddy">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>Accountabilibuddy</h5>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-down-open"></i></div>
+                        </div>
+                        <noscript></noscript>
+                    </div>
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap"><img src="public/images/portfolio/thumb/locall.png" alt="LocALL">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>LocALL</h5>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-down-open"></i></div>
+                        </div>
+                        <noscript></noscript>
+                    </div>
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+          
+          <img class="scale-with-grid" src="public/images/portfolio/modal/itsago.png" alt="ItsaGO">
+
+          <div class="description-box">
+              
+              <h5>ItsaGO</h5>
+              
+              <p>Simple event and RSVP manager</p><span class="categories"><i class="fa fa-tag"></i><!-- react-text: 9 -->JavaScript, MySQL, Sequelize, Materialize<!-- /react-text --></span></div>
+          <div class="link-box"><a href="https://itsa-go.herokuapp.com/" target="_blank" rel="noopener noreferrer">Details</a><a class="popup-modal-dismiss">Close</a></div>
+
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+<img class="scale-with-grid" src="public/images/portfolio/modal/accountabilibuddy.png" alt="Accountabilibuddy"><div class="description-box"><h5>Accountabilibuddy</h5><p>Recruiting platform for Software Developer recruiters.</p><span class="categories"><i class="fa fa-tag"></i><!-- react-text: 9 --> JavaScript, MongoDB, mongoose, Bootstrap<!-- /react-text --></span></div><div class="link-box"><a href="https://onereq.herokuapp.com/" target="_blank" rel="noopener noreferrer">Details</a><a class="popup-modal-dismiss">Close</a></div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+<img class="scale-with-grid" src="public/images/portfolio/modal/locall.png" alt="LocALL"><div class="description-box"><h5>LocALL</h5><p>Campus Guiding System is a Google Maps-like application to provide directions within the HKUST campus. It calculates the shortest route between any two points in the university, using the Dijkstra's search algorithm. The system features a rich UI rendered in jQuery UI and jsDraw2D, providing map manipulation and location search functionalities. The backend is developed in PHP, utilizing MySQL as the database.</p><span class="categories"><i class="fa fa-tag"></i><!-- react-text: 9 -->JavaScript, jQuery, Firebase, Bootstrap<!-- /react-text --></span></div><div class="link-box"><a href="https://jacquewhite.github.io/LocAll/" target="_blank" rel="noopener noreferrer">Details</a><a class="popup-modal-dismiss">Close</a></div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+      <section id="testimonials">
+        <div class="text-container">
+            <div class="row">
+                <div class="two columns header-col">
+                    <h1><span>References</span></h1></div>
+                <div class="ten columns flex-container">
+                    <div class="flexslider">
+                        <div class="slider " style="position: relative; display: block; width: 100%; height: auto; box-sizing: border-box; visibility: visible;">
+                            <div class="slider-frame" style="position: relative; display: block; overflow: hidden; height: auto; margin: 0px; padding: 0px; transform: translate3d(0px, 0px, 0px); box-sizing: border-box;">
+                                <ul class="slider-list" style="transform: translate3d(0px, 0px, 0px); position: relative; display: block; margin: 0px; padding: 0px; height: 390px; width: 1200px; cursor: inherit; box-sizing: border-box;">
+                                    <li class="slider-slide" style="position: absolute; left: 0px; top: 0px; display: inline-block; list-style-type: none; vertical-align: top; width: 400px; height: auto; box-sizing: border-box; margin: auto 0px;">
+                                        <div>
+                                            <blockquote>
+                                                <p>Jacqueline and I worked together at FitChimp, and she was a great assistant through her leadership, reliability, professionalism and enthusiasm. She showed up early for all of our meetings. She always got her assignments done on time. In addition, she would offer to help others when her assignments were completed. I was very pleased with Jacqueline's attitude and her work ethics, and I would highly recommend her without any hesitations.</p>
+                                                <cite>
+                                                    <!-- react-text: 338 -->Trung Nguyen
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 340 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 341 -->CEO and Founder
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 343 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 344 -->QikMood
+                                                    <!-- /react-text -->
+                                                </cite>
+                                            </blockquote>
+                                        </div>
+                                    </li>
+                                    <li class="slider-slide" style="position: absolute; left: 400px; top: 0px; display: inline-block; list-style-type: none; vertical-align: top; width: 400px; height: auto; box-sizing: border-box; margin: auto 0px;">
+                                        <div>
+                                            <blockquote>
+                                                <p>I got to mentor Jacque for LocALL app. I was thoroughly impressed by her work ethic, ability to research and learn new ideas on her own, and interpersonal skills that helped our project become a success. I see great things in Jacque as a leader, and heartily recommend her as your next full stack developer!</p>
+                                                <cite>
+                                                    <!-- react-text: 350 -->Isaac Lee
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 352 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 353 -->Full Stack Developer
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 355 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 356 -->UT Coding Bootcamp
+                                                    <!-- /react-text -->
+                                                </cite>
+                                            </blockquote>
+                                        </div>
+                                    </li>
+                                    <li class="slider-slide" style="position: absolute; left: 800px; top: 0px; display: inline-block; list-style-type: none; vertical-align: top; width: 400px; height: auto; box-sizing: border-box; margin: auto 0px;">
+                                        <div>
+                                            <blockquote>
+                                                <p>Jacqueline was one of the software engineer's working on the back-end for our app LocAll. Jacqueline always kept the team going and always had great ideas. She is hardworking and always seeking to learn as much as possible. She pushed through every obstacle and never let anything get in her way. She was wonderful to work with and I would work with her again in a heartbeat.</p>
+                                                <cite>
+                                                    <!-- react-text: 362 -->Margarita Tagaban
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 364 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 365 -->Full Stack Developer
+                                                    <!-- /react-text -->
+                                                    <br>
+                                                    <!-- react-text: 367 -->&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <!-- /react-text -->
+                                                    <!-- react-text: 368 -->UT Coding Bootcamp
+                                                    <!-- /react-text -->
+                                                </cite>
+                                            </blockquote>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <style type="text/css">
+                            .slider-slide>img {
+                                width: 100%;
+                                display: block;
+                            }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Whether you're a hiring manager, HR, or just want to learn more about what I do, please send me a message!
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Jacqueline White<br>
+						   Austin, TX<br>
+						   <span>(512) 466-1770</span>
+					   </p>
+
+				   </div>
+
+
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+                    <li><a href="skype:+15124661770"><i class="fa fa-phone"></i></a></li>
+                    <li><a href="mailto:jacquecwhite@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jacquelinewhite15/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jacquewhite"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2017 Jacqueline White</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout and CeeVee</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+       <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-107733786-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
