@@ -134,6 +134,37 @@
    });
 
 /*----------------------------------------------------*/
+/*  /* slick slider
+/*----------------------------------------------------*/
+
+    var ssSlickSlider = function() {
+        
+        $('.testimonials__slider').slick({
+            arrows: true,
+            dots: false,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            prevArrow: "<div class=\'slick-prev\'><i class=\'im im-arrow-left\' aria-hidden=\'true\'></i></div>",
+            nextArrow: "<div class=\'slick-next\'><i class=\'im im-arrow-right\' aria-hidden=\'true\'></i></div>",       
+            pauseOnFocus: false,
+            autoplaySpeed: 1500,
+            responsive: [
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    };
+    
+  ssSlickSlider();
+
+/*----------------------------------------------------*/
 /*	contact form
 ------------------------------------------------------*/
 
