@@ -23,7 +23,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-   background: #191919;
+   background: #0f0f0f;
  }
 
 .loading {
@@ -81,7 +81,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
@@ -879,7 +879,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   /*background: #1F1F1F url(../images/background.jpg) no-repeat center right;*/
+   background: #1F1F1F url(../images/portfolio/testimonals-bg.jpg) no-repeat center top;
    background: #2B2B2B;
    min-height: 200px;
    width: 100%;
@@ -890,7 +890,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 16px/22px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -900,9 +900,9 @@ call-to-action .button {
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
-  padding-right: 10px;
-  font-size: 72px;
-   line-height: 72px;
+   padding-right: 10px;
+   font-size: 70px;
+   line-height: 70px;
    text-align: left;
    float: left;
    color: #fff;
@@ -919,8 +919,8 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 18px;
-   line-height: 48px;
+   font-size: 16px;
+   line-height: 46px;
    color: #fff
 }
 #testimonials blockquote cite {
@@ -958,7 +958,7 @@ call-to-action .button {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; width: 82%; }
+.flex-container { zoom: 1; position: relative; width: 85%; }
 
 /* Clearfix for .slides */
 .slides:before,
@@ -1079,11 +1079,11 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-  color: #eee;
-  background: #373233;
-  margin-bottom: 42px;
-  border: 0;
-  outline: none;
+   color: #eee;
+   background: #373233;
+   margin-bottom: 42px;
+   border: 0;
+   outline: none;
    font-size: 15px;
    line-height: 24px;
    width: 65%;
