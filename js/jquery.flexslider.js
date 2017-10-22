@@ -1019,6 +1019,8 @@
       slider.vars.removed(slider);
     }
 
+    
+
     //FlexSlider: Initialize
     methods.init();
   }
