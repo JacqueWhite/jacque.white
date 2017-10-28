@@ -717,6 +717,15 @@ strong.fa-quora {
    color: #95A3A3;
 }
 
+#portfolio div.item-wrap {
+  display: block;
+  min-height: 90px;
+  min-width: 90px;
+  max-height: 296px;
+  max-width: 296px;
+  overflow: hidden;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
@@ -778,7 +787,7 @@ strong.fa-quora {
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.portfolio-item .item-wrap {
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
