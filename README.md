@@ -4,9 +4,9 @@ Hello! My name is Jacqueline White and I am a Full-Stack Web Developer in AUSTIN
 
 I'm currently looking for my next big challenge as a full stack javascript developer in Austin. Learn more about me to see how I could contribute to your team!
 
-<a href="https://jacquewhite.github.io/jacque.white/" target="_blank">View my Portfolio here!</a>
+<a href="https://jacquewhite.github.io/" target="_blank">View my Portfolio here!</a>
 
-<a href="https://drive.google.com/open?id=0By2DXQC3UsjnTFRkZ0s5LWZGcTA" download="JacquelineWhite">Download my Resume</a>
+<a href="https://s3.us-east-2.amazonaws.com/jacqueportfolio/jacqueline_white_2017_resume.pdf" download="JacquelineWhite">Download my Resume</a>
 
 Connect on <a href="https://www.linkedin.com/in/jacquelinewhite15/" target="_blank">LinkedIn</a>
 
